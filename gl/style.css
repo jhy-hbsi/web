@@ -1,0 +1,53 @@
+@charset 'utf-8';
+header{
+    width: 16rem;
+    height:1.4rem;
+    position: relative;
+}
+header img{
+    position: absolute;
+    top: 50%;left: 50%;
+    margin-left: -3.1rem;
+    margin-top: -0.6rem;
+}
+header .box{
+    float: right ;
+    margin-right: 0.9rem;
+    margin-top: 0.05rem;
+}
+header .box span{
+    width: 0.65rem;
+    height: 0.55rem;
+    display: inline-block;
+    color: blue;
+    font-size: 0.55rem;
+}
+.box .icon-fenlei1{
+    font-size: 1.4rem;
+}
+header .box ul{
+    display: none;
+    font-size: 0.1rem;
+   width: 1.2rem;
+}
+header .box span:hover ul{
+    display: block;
+}
+.box1{
+   width:1rem;
+    height: 11.875rem;
+    border: 0.025rem solid red;
+    margin-left: 0.3rem;
+}
+.box1 .b-t h5{
+    font-size: 0.45rem;
+    margin: 0 auto;
+}
+.box1 .b-t p{
+    font-size: 0.35rem;
+    color: #999999;
+    margin: 0 auto;
+}
+.box1 .b-t img{
+    margin: 0 auto;
+}
